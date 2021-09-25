@@ -12,10 +12,93 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:orientation="horizontal"></LinearLayout>
+
         <TextView
             android:id="@+id/titulo"
+            android:background="@color/black"
+            android:textColor="@color/teal_200"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="TextView" />
+            android:textSize="25dp"
+            android:gravity="center"
+            android:text="¿Quién quiere ser millonario?" />
+
+        <TextView
+            android:id="@+id/nivel"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:textSize="25dp"
+            android:background="@color/black"
+            android:textColor="#FF5722"
+            android:gravity="center"
+            android:text="$1.000" />
+
+        <TextView
+            android:id="@+id/pregunta"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="Quien es el creador de apple en el universo de marvel?"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <LinearLayout
+            android:id="@+id/layoutcomodin"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/publico"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/grupo_de_personas_dibujadas_a_mano_de_personas" />
+
+            <ImageButton
+                android:id="@+id/cincuenta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/mitimiti" />
+
+            <ImageButton
+                android:id="@+id/amigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/llamada_telefonica" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/opcion1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/opcion2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/opcion3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/opcion4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
