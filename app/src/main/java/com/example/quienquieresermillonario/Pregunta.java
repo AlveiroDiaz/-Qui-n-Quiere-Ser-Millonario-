@@ -9,6 +9,12 @@ public class Pregunta {
     private String[] opciones;
     private String respuesta;
 
+    public Pregunta() {
+        this.nivel = nivel;
+        this.pregunta = pregunta;
+        this.opciones = opciones;
+        this.respuesta = respuesta;
+    }
 
 
 

@@ -1,7 +1,9 @@
 package com.example.quienquieresermillonario;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 import java.util.Random;
 
 public class Juego {
@@ -23,11 +25,11 @@ public class Juego {
             if(listaP.getPreguntas().get(i).getNivel() == 1){
 
                 nivel1.add(listaP.getPreguntas().get(i));
-
             }
         }
 
-     //   Collections.shuffle(nivel1);
+       Collections.shuffle(nivel1);
+
         return   nivel1;
 
     }
@@ -45,7 +47,7 @@ public class Juego {
             }
         }
 
-
+        Collections.shuffle(nivel1);
 
         return nivel1;
 
@@ -63,6 +65,8 @@ public class Juego {
             }
         }
 
+        Collections.shuffle(nivel1);
+
         return nivel1;
 
     }
@@ -79,6 +83,8 @@ public class Juego {
             }
         }
 
+        Collections.shuffle(nivel1);
+
         return nivel1;
 
     }
@@ -94,6 +100,8 @@ public class Juego {
 
             }
         }
+
+        Collections.shuffle(nivel1);
 
         return nivel1;
 
