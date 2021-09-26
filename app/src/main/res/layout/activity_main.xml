@@ -64,25 +64,11 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/publico"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/grupo_de_personas_dibujadas_a_mano_de_personas" />
-
-            <ImageButton
                 android:id="@+id/cincuenta"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/mitimiti" />
-
-            <ImageButton
-                android:id="@+id/amigo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/llamada_telefonica" />
 
         </LinearLayout>
 
@@ -115,13 +101,6 @@
             android:layout_gravity="center"
             android:layout_height="wrap_content"
             android:text="Button" />
-
-        <Button
-            android:id="@+id/siguiente"
-            android:layout_width="154dp"
-            android:layout_gravity="right"
-            android:layout_height="wrap_content"
-            android:text="Siguiente" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

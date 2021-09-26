@@ -76,10 +76,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void siguientePregunta() {
 
-        plata.setText("$" + puntos);
-
 
         activarBotones();
+
+        plata.setText("$" + puntos);
 
 
         if(aux == 5){
@@ -179,7 +179,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.cincuenta:
-
+                cincuenta.setEnabled(false);
                 cincuenta();
                 break;
         }
@@ -208,9 +208,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             opc2.setEnabled(false);
             opc3.setEnabled(false);
         }
-
-        cincuenta.setEnabled(false);
-        cincuenta.setBackgroundColor(Color.parseColor("#FE1808"));
 
 
     }
@@ -243,7 +240,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         opc2.setEnabled(true);
         opc3.setEnabled(true);
         opc4.setEnabled(true);
-        cincuenta.setBackgroundColor(Color.parseColor("#451C83"));
         opc1.setBackgroundColor(Color.parseColor("#451C83"));
         opc2.setBackgroundColor(Color.parseColor("#451C83"));
         opc3.setBackgroundColor(Color.parseColor("#451C83"));
